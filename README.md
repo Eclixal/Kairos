@@ -4,6 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Eclixal/Kairos?style=for-the-badge)](https://github.com/Eclixal/Kairos/network)
 [![GitHub issues](https://img.shields.io/github/issues/Eclixal/Kairos?style=for-the-badge)](https://github.com/Eclixal/Kairos/issues)
 [![GitHub license](https://img.shields.io/github/license/Eclixal/Kairos?style=for-the-badge)](https://github.com/Eclixal/Kairos)
+![Travis (.com)](https://img.shields.io/travis/com/Eclixal/Kairos?style=for-the-badge)
 
 Kairos is a Java application that automatically manages game servers. Kairos also includes a Web server that allows you to monitor / manage the servers.
 
