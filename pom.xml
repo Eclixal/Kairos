@@ -11,13 +11,17 @@
 
     <modules>
         <module>kairos-api</module>
-        <module>kairos-tests</module>
         <module>kairos</module>
     </modules>
+
+    <developers>
+        <developer>
+            <name>Eclixal</name>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-    
 </project>
