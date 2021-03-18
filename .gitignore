@@ -1,1 +1,5 @@
 /.idea/
+/kairos/target/
+/kairos-api/target/
+/kairos-api/kairos-api.iml
+/kairos/kairos.iml
