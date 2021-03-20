@@ -13,16 +13,15 @@ import java.util.logging.*;
  */
 public class KairosLog extends Logger {
 
-    private final Formatter formatter = new ConciseFormatter();
     private final Log dispatcher = new Log(this);
 
     public KairosLog() {
         super("Kairos", null);
         this.setLevel(Level.ALL);
 
-        try
-        {
+        try {
             FileHandler fileHandler = new FileHandler("Kairos.log", 1 << 24, 8, true);
+            Formatter formatter = new ConciseFormatter();
             fileHandler.setFormatter(formatter);
             addHandler(fileHandler);
 
@@ -30,8 +29,7 @@ public class KairosLog extends Logger {
             consoleHandler.setLevel(Level.INFO);
             consoleHandler.setFormatter(formatter);
             addHandler(consoleHandler);
-        } catch (IOException ex)
-        {
+        } catch (IOException ex) {
             System.err.println("Could not register logger!");
             ex.printStackTrace();
         }
